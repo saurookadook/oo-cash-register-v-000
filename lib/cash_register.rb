@@ -34,7 +34,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    binding.pry
+    # binding.pry
     @items_list.unshift
     @total -= @item_price
   end
