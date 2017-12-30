@@ -1,3 +1,5 @@
+require 'pry'
+
 class CashRegister
   attr_accessor :items_list, :items_quantity, :total, :discount
 
