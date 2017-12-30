@@ -11,6 +11,7 @@ class CashRegister
 
   def add_item(title, price, quantity = 1)
     @item_price = price
+    @item_title = title
     @total += (price * quantity)
     @items_quantity = quantity
     quantity.times do
